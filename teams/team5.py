@@ -1,6 +1,8 @@
 '''
 Iterative Prisoner's Dillema Team Submission
 
+Spencer, Sai, Lauren, Ryan
+
 In this file, you MUST define the following:
 
 Variables:
