@@ -14,10 +14,12 @@ Functions:
 '''
 
 team_name = 'TEAM 5'
-strategy_name = 'however you want to describe your strategy'
+strategy_name = 'Screw this poop Im out'
 strategy_description = 'How does this strategy decide?'
 
 def move(my_last_move, their_last_move):
+    if their_last_move == 'c' or 'b':
+        return 'b'
     '''
     Make my move based on the history with this player.
 
@@ -30,4 +32,7 @@ def move(my_last_move, their_last_move):
     return 'c'
 
 if __name__ == '__main__':
-  move()
+  print( move('b', 'c'))
+  print( move('b', 'b'))
+  print( move('c', 'b'))
+  print( move('c', 'c'))
